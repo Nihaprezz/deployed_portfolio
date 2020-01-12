@@ -1,0 +1,130 @@
+@import 'variables.scss';
+
+.projects-page {
+    border-top: 3px solid $blue;
+    padding-top: 1%;
+    background: $purple;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-bottom: 2%;
+    justify-items: center;
+    grid-row-gap: 7vh;
+}
+
+.project-card {
+    display: grid;
+
+    p {
+        justify-self: start;
+        font-family: $primaryFont;
+        font-size: 2vw;
+        background: $orange;
+        padding: 0% 1%;
+
+        a {
+            color: $purple;
+            letter-spacing: .3vh;
+            text-transform: uppercase;
+            transition: all .3s ease-in;
+        }
+        
+        a:hover {
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    .project-img {
+        transition: box-shadow 0.5s;
+    }
+
+    .project-img:hover {
+        box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.9);
+    }
+}
+
+
+.gc-img {
+    background: url('../pictures/GameCouch/GC1.png'); 
+}
+
+.mh-img {
+    background: url('../pictures/MovieHangout/MovieH1.png')
+}
+
+.bq-img {
+    background: url('../pictures/BrewQueue/BrewQ1.png')
+}
+
+.bd-img {
+    background: url('../pictures/BurgerDiner/BD1.png')
+}
+
+.project-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 45vw;
+    height: 45vh;
+}
+
+
+
+@media (max-width: 376px){
+    .projects-page {
+        grid-row-gap: 1vh !important;
+    }
+
+    .project-img {
+        margin-top: -5vw !important;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .projects-page {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+                  
+    .project-img {
+        width: 100vw;
+        height: 33vh !important;
+    }
+
+    .project-card {
+        a {
+            font-size: 5vw !important;
+        }
+    }
+}
+
+@media (max-height: 700px){
+    .projects-page {
+        grid-row-gap: 4vh !important;
+    }
+}
+
+@media (max-width: 1024px){
+    .projects-page {
+        padding-top: 3%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .project-img {
+        width: 100vw;
+        height: 43vh;
+    }
+
+    .project-card {
+        a {
+            font-size: 3vw;
+        }
+    }
+}
+
+
+
+//Projects Show Page
