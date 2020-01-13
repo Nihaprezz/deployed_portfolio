@@ -46,6 +46,11 @@
     margin-bottom: 1%;
     font-size: 3rem;
 
+    h2 {
+        color: $orange;
+        font-weight: bold;
+    }
+
     a:first-child {
         padding-left: 0;
     }
@@ -95,6 +100,7 @@
 
     .about-me-contact-icons {
         font-size: 2rem !important;
+        margin-bottom: .6vh !important;
     }
 }
 

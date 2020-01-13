@@ -18,6 +18,7 @@ class About extends React.Component {
                     </div>
 
                     <div className="about-me-contact-icons animated slideInLeft">
+                        <h2>Find/Contact Me At : </h2>
                         {/* eslint-disable-next-line */}
                         <a target="_blank" href="https://github.com/Nihaprezz">
                             <i class="fab fa-github"></i>
