@@ -12,7 +12,7 @@ class HomePage extends React.Component {
 
                     <p className="i-am animated bounceInRight">I am a Fullstack Web Developer.</p>
 
-                    <Link to="/projects"><button className="animated bounceInUp delay-1s" >Projects</button></Link>
+                    <Link to="/projects"><button className="animated bounceInUp" >Projects</button></Link>
 
                     <div className="home-icons animated bounceInUp delay-1s">
                         {/* eslint-disable-next-line */}
