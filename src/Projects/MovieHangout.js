@@ -19,28 +19,28 @@ class MovieHangout extends React.Component {
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                            <img src={require('../pictures/MovieHangout/MovieH1.png')} class="d-block w-100" alt="..."/>
+                            <img src={require('../pictures/MovieHangout/MovieH1.png?nf_resize=fit&w=1000&h=1000')} class="d-block w-100" alt="..."/>
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Home Page</h5>
                                 <p>This page renders the name of the site, featured movies, and popular movies from The Movie DB API.</p>
                             </div>
                             </div>
                             <div class="carousel-item">
-                            <img src={require('../pictures/MovieHangout/MovieH2.png')} class="d-block w-100" alt="..."/>
+                            <img src={require('../pictures/MovieHangout/MovieH2.png?nf_resize=fit&w=1000&h=1000')} class="d-block w-100" alt="..."/>
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Search Movies Page</h5>
                                 <p>This movie page lets the user search for movies by genre, movie title, and option to sort by rating or name.</p>
                             </div>
                             </div>
                             <div class="carousel-item">
-                            <img src={require('../pictures/MovieHangout/MovieH3.png')} class="d-block w-100" alt="..."/>
+                            <img src={require('../pictures/MovieHangout/MovieH3.png?nf_resize=fit&w=1000&h=1000')} class="d-block w-100" alt="..."/>
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Movie Show Page</h5>
                                 <p>Movie details and user can add reviews.</p>
                             </div>
                             </div>
                             <div class="carousel-item">
-                            <img src={require('../pictures/MovieHangout/MovieH4.png')} class="d-block w-100" alt="..."/>
+                            <img src={require('../pictures/MovieHangout/MovieH4.png?nf_resize=fit&w=1000&h=1000')} class="d-block w-100" alt="..."/>
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>User Profile Page</h5>
                                 <p>Once logged in the user can visit thier profile page. Shows their details, saved movies and comments the user left on movies.</p>

@@ -21,27 +21,27 @@ class GameCouch extends React.Component {
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                            <img src={require('../pictures/GameCouch/GC1.png')} class="d-block w-100" alt="..."/>
+                            <img src={require('../pictures/GameCouch/GC1.png?nf_resize=fit&w=1000&h=1000')} class="d-block w-100" alt="..."/>
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Home Page</h5>
                                 <p>This page renders the name of the site, featured games, popular games and on the footer the API used.</p>
                             </div>
                             </div>
                             <div class="carousel-item">
-                            <img src={require('../pictures/GameCouch/GC2.png')} class="d-block w-100" alt="..."/>
+                            <img src={require('../pictures/GameCouch/GC2.png?nf_resize=fit&w=1000&h=1000')} class="d-block w-100" alt="..."/>
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Search Games Page</h5>
                                 <p>This games page lets the user search for games by genre, popular year or by title through the search bar.</p>
                             </div>
                             </div>
                             <div class="carousel-item">
-                            <img src={require('../pictures/GameCouch/GC3.png')} class="d-block w-100" alt="..."/>
+                            <img src={require('../pictures/GameCouch/GC3.png?nf_resize=fit&w=1000&h=1000')} class="d-block w-100" alt="..."/>
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Game Show Page</h5>
                             </div>
                             </div>
                             <div class="carousel-item">
-                            <img src={require('../pictures/GameCouch/GC4.png')} class="d-block w-100" alt="..."/>
+                            <img src={require('../pictures/GameCouch/GC4.png?nf_resize=fit&w=1000&h=1000')} class="d-block w-100" alt="..."/>
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>User Profile Page</h5>
                                 <p>Once logged in the user can visit thier profile page. Shows their details, liked games and recent posts.</p>

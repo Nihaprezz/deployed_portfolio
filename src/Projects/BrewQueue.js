@@ -27,7 +27,7 @@ class BrewQueue extends React.Component {
                             </div>
                             </div>
                             <div class="carousel-item">
-                            <img src={require('../pictures/BrewQueue/BrewQ2.png')} class="d-block w-100" alt="..."/>
+                            <img src={require('../pictures/BrewQueue/BrewQ2.png?nf_resize=fit&w=1000&h=1000')} class="d-block w-100" alt="..."/>
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Search Functionality</h5>
                                 <p>From the home page a user can search a city and breweries will be rendered from the API.</p>
