@@ -14,7 +14,7 @@ class HomePage extends React.Component {
 
                     <Link to="/projects"><button className="animated bounceInUp" >Projects</button></Link>
 
-                    <div className="home-icons animated bounceInUp delay-1s">
+                    <div className="home-icons animated bounceInUp">
                         {/* eslint-disable-next-line */}
                         <a target="_blank" href="https://github.com/Nihaprezz">
                             <i class="fab fa-github"></i>
