@@ -18,7 +18,7 @@ class About extends React.Component {
                     </div>
 
                     <div className="about-me-contact-icons animated slideInLeft">
-                        <h2>Find/Contact Me At : </h2>
+                        <h2>Find/Contact Me At</h2>
                         {/* eslint-disable-next-line */}
                         <a target="_blank" href="https://github.com/Nihaprezz">
                             <i class="fab fa-github"></i>
@@ -42,6 +42,11 @@ class About extends React.Component {
                         {/* eslint-disable-next-line */}
                         <a href="mailto: sergioaprez@outlook.com">
                             <i class="fas fa-paper-plane"></i>
+                        </a>
+
+                        {/* eslint-disable-next-line */}
+                        <a target="_blank" href="https://medium.com/@sergio13prez">
+                            <i class="fab fa-medium"></i>
                         </a>
                     </div>
                 </div>
