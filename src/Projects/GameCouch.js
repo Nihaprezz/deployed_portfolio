@@ -58,7 +58,7 @@ class GameCouch extends React.Component {
                             <img src={require('../pictures/GameCouch/GC6.png')} class="d-block w-100" alt="..."/>
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Feed Page</h5>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                <p>Allows logged in user to make posts/status updates and can see followed user's posts.</p>
                             </div>
                             </div>
                         </div>
